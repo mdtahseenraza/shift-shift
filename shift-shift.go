@@ -22,7 +22,6 @@ type switcher interface {
 	Init() error
 	Switch(int)
 	Name() string
-	Close()
 }
 
 // Объединение данных для удобства передачи по каналу.
